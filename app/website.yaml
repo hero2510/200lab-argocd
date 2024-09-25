@@ -13,7 +13,7 @@ spec:
         app: website
     spec:
       containers:
-        - image: hero2510/api
+        - image: hero2510/website
           name: website
           ports:
             - containerPort: 80
